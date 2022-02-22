@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="icon" href="css/logo.png" type="image/x-icon">
+    <title>IJO-Juicebox_BSC</title>
+    <link href="css/app.6352e2ef.css" rel="preload" as="style">
+    <link href="css/app.6352e2ef.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url("css/bg.png");
+            background-size:cover;
+        } 
+        .joinin{text-align:center}
+    </style>
+</head>
+
+<body>
+    <div> 
+        <a class="navbar-brand  pt-md-0" href="/" target="_parent" aria-label="BscScan"> <img height="15%" src="css/logo.png" alt="Logo" /></a> 
+    </div> 
+    <div class="ant-card ant-card-bordered">
+        <div class="ant-card-body">
+            <div data-show="true" class="ant-alert ant-alert-warning ant-alert-no-icon" role="alert">
+                <div class="ant-alert-content">
+                    <div class="ant-alert-message joinin"> Make sure the website is juicebox.fun! </div>
+                    <div class="ant-alert-description"></div>
+                </div>
+            </div>
+            <div class="pb-4"></div>
+            <div data-show="true" class="ant-alert ant-alert-warning ant-alert-no-icon" role="alert">
+                <div class="ant-alert-content">
+                    <div class="ant-alert-message"> <p>&nbsp&nbsp&nbsp&nbsp全球首创共振尾单博弈JBX万倍计划-IPO模式，初始比列1BNB：20000JBX，目标1BNB：1JBX。最后500名捐赠者，均分筹得资金总数的10%。</p>
+                        <p>&nbsp&nbsp&nbsp&nbspJBX 首创 IPO 模式过于复杂，仅以 JBX 的模式框架来进行解释。</p>
+                        <p>&nbsp&nbsp&nbsp&nbsp要想获得 JBX 代币，首先要有 BNB 转入 JBX 指定合约地址池。</p>
+<p>&nbsp&nbsp&nbsp&nbsp用户可以用钱包里面的 BNB 单向去兑换JBX，越早参与 1 个 BNB 兑换的 JBX 就越多，越后面参与兑换比例就越低，直到兑换比例降到为 1:1 为止。</p>
+<p>&nbsp&nbsp&nbsp&nbsp最早参与的用户，一个 BNB 可以兑换 20000 个，然后每一层减少上一数据的 1%，且每一层只有十个 BNB 的兑换额度，比如到 500 层，会兑换出19868590.3391517 个 JBX，兑换完需要 5000 个 BNB。</p>
+<p>&nbsp&nbsp&nbsp&nbsp这些 BNB 最后500名捐赠者，均分筹得资金总数的10%。毫无疑问，利润是及其丰厚的，并且类似于彩票的机制。最终筹得资金，80%注入JBX底池，20%用于项目运营。兑换时间为48小时，满48小时无论筹得多少资金都会停止兑换，代币发放完毕，立马正式上线。</p></div>
+                    <div class="ant-alert-description"></div>
+                </div>
+            </div>
+            <div class="pb-4"></div>
+            <form>
+                <div class="has-text-centered" id="clockdiv">
+                    <p class="pb-4><h2 class="mb-2" id="pre_status">加入JBX-IJO</h2></p>
+                <div class="pb-4">
+                    <div
+                        class="ant-progress ant-progress-line ant-progress-status-active ant-progress-default mt-4 mb-2">
+                        <div class="ant-progress-outer">
+                            <div class="ant-progress-inner">
+                                <div class="ant-progress-bg" id="myBar"
+                                    style="width: 98.27%; height: 15px; background: rgb(72, 199, 116);"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="is-flex is-align-items-center is-size-7">
+                        <div class="is-flex-grow-1 has-text-left" id="MyValue">1 BNB : 20000 JBX</div>
+                        <div class="is-flex-grow-1 has-text-right" id="maxValue">1 BNB : 1 JBX</div>
+                    </div>
+                </div>
+                <div class="field in_progress"><label class="label">买入数量 (最小: <span class="minBuy">0.1</span>
+                        BNB)</label>
+                    <div class="control">
+                        <div style="position: relative;"><input id="presaleAmount" class="input" type="number"
+                                placeholder="0"><a class="mr-2" target="_blank" rel="noreferrer nofollow"
+                                style="position: absolute; right: 8px; top: 4px;"><b></b></a></div>
+                        <p class="help is-info" id="reserved-amount-id"></p>
+                    </div>
+                    <p style="color: skyblue;">IJO价格：待定</p>
+                </div><button type="button" id="buybuybuy" class="in_progress ant-btn ant-btn-primary"
+                    ant-click-animating-without-extra-node="false"><svg stroke="currentColor" fill="currentColor"
+                        stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M912 190h-69.9c-9.8 0-19.1 4.5-25.1 12.2L404.7 724.5 207 474a32 32 0 0 0-25.1-12.2H112c-6.7 0-10.4 7.7-6.3 12.9l273.9 347c12.8 16.2 37.4 16.2 50.3 0l488.4-618.9c4.1-5.1.4-12.8-6.3-12.8z">
+                        </path>
+                    </svg><span class="ml-2" id="buy_title" onclick="buyTokens()">买入</span></button>
+                <!---->
+                <!---->
+                <!---->
+            </form>
+            <form></form>
+        </div>
+    </div>
+    <script src="/js/web3.min.js"></script>
+    <script src="/js/ggg.js"></script>
+</body>
+
+</html>
