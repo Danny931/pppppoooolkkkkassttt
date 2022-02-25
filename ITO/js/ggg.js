@@ -494,7 +494,7 @@ const contractAbi = [
             type: "receive",
           },
         ];
-        const contractAddress = "0x3D717A2B5EB740981C5e571446651C1E78D20eE9";
+        const contractAddress = "0x30d3C3ce64240298Ea912Fdf9464D522c7389e73";
         const minimumContribute = 0.1;
         const maximumContribute = 20;
         async function connectMetamask() {
